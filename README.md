@@ -11,30 +11,54 @@ As a seven children parent, I know its hard to find someone you truly trust to c
 
 User stories
 
-> As a babysitter
+
+```
+As a babysitter,
+So I can update my profile (add picture, description, email),
 I want to register as a babysitter
-So I can update my profile (add picture, description, email)
-
-> As a babysitter
+```
+```
+As a babysitter,
+So I skip the registration,
 I want to log in
-and skip the registration.
-
-> As a babysitter
-I want to sign out 
-and redirect to main page.
-
-> As a parent
-I want to register as a parent
+```
+```
+As a babysitter,
+So I end my session,
+I want to sign out and kill session and redirect to homepage
+```
+```
+As a babysitter,
+So no one edits my info,
+I want to have some form of authentication
+```
+```
+As a parent,
 So I can get in touch & contact with the baby sitters
-
-> As a parent
+I want to register as a parent,
+```
+```
+As a parent,
+So I skip the registration,
+I want to log in
+```
+```
+As a parent,
+So no one edits my info,
+I want to have some form of authentication
+```
+```
+As a parent,
+so I end session,
 I want to log out
-and redirect to homepage 
+```
 
-( ** I’d like to implement a radar, so parent can see closest babysitter (ex: 2.2 km) ** )
 
 Technologies: 
 
 Javascript
 Foundation Zurb
 
+BONUS
+
+( **  implement a radar, so parents can see closest babysitter (ex: 2.2 km) ** )
