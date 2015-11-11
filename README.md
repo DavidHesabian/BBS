@@ -6,7 +6,7 @@ The application I’ll build will be a tool in order to contact  babysitters  to
 
 Problem Definition
 
-As a seven children parent, I know its hard to find someone you truly trust to check on your little babies for a period of time. Therefore due to all this awarness I want to build a simple app, which will show you our trusted members, fastly get in touch and live your house with a smile on your face.
+As a seven children parent, I know its hard to find someone you truly trust to check on your little babies for a period of time. Therefore due to all this awarness I want to build a simple app, which will show you our trusted members, fastly get in touch and leave your house with a smile on your face.
 
 User stories
 
