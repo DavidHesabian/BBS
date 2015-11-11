@@ -1,6 +1,5 @@
 # BBS
 
-
  Baby sitter App
 
 The application I’ll build will be a tool in order to contact  babysitters  to check on your baby, incase of emergencies or simply if you’ve got a date, apointment, etc.
@@ -49,6 +48,11 @@ I want to have some form of authentication
 ```
 ```
 As a parent,
+so I show my gratitude to bbs,
+I want to rate them
+```
+```
+As a parent,
 so I end session,
 I want to log out
 ```
@@ -56,8 +60,8 @@ I want to log out
 
 Technologies: 
 
-Javascript
-Foundation Zurb
+- Javascript
+- Foundation Zurb
 
 BONUS
 
