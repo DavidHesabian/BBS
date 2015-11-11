@@ -60,7 +60,7 @@ I want to log out
 
 Technologies: 
 
-- Javascript
+- Rails
 - Foundation Zurb
 
 BONUS
