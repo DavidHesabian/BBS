@@ -8,4 +8,16 @@ feature 'users' do
   			expect(page).to have_link 'Add a user'
   	    end
     end
+
+    context 'users have been added' do
+    	before do 
+    	  User.create(name: 'Linda')
+    	end
+
+    	scenario 'display users' do
+    		visit '/users'
+    		expect(page).to have_content ('Linda')
+  			expect(page).not_to have_content ('no users yet')
+  		end
+  	end
 end
