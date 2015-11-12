@@ -67,4 +67,4 @@ Technologies:
 
 BONUS
 
-( **  implement a radar, so parents can see closest babysitter (ex: 2.2 km) ** )
+Radar / maps
