@@ -62,6 +62,8 @@ Technologies:
 
 - Rails
 - Foundation Zurb
+- Google maps for geolocation
+- PSQL database
 
 BONUS
 
