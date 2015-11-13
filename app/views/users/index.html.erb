@@ -1,2 +1,12 @@
 No users yet!
 <a href='#'>Add a user</a>
+
+<% if User.all.any? %>
+  <% User.all.each do |user| %>
+    <h2><%= user.name %></h2>
+  <% end %>
+<% else %>
+  <h1>No users yet</h1>
+<% end %>
+
+<a href="#">Add a user</a>

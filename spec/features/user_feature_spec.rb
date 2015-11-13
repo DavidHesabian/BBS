@@ -1,6 +1,11 @@
 require 'rails_helper'
 
 feature 'users' do 
+
+  before do 
+    User.create(name: 'Linda')
+  end
+
   context 'no users have been added' do
   		scenario 'should display prompt to add a user' do
   			visit '/users'
@@ -10,10 +15,6 @@ feature 'users' do
     end
 
     context 'users have been added' do
-    	before do 
-    	  User.create(name: 'Linda')
-    	end
-
     	scenario 'display users' do
     		visit '/users'
     		expect(page).to have_content ('Linda')
