@@ -8,7 +8,7 @@ require 'rspec/rails'
 require 'capybara/rails'
 require 'factory_girl_rails'
 require 'shoulda-matchers'
-require 'support/feature_helpers'
+require 'support/feature_helper'
 
 ActiveRecord::Migration.maintain_test_schema!
 
